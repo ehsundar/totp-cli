@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yitsushi/totp-cli/internal/storage"
+	"github.com/ehsundar/totp-cli/internal/storage"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yitsushi/totp-cli/internal/security"
+	"github.com/ehsundar/totp-cli/internal/security"
 )
 
 func TestGenerateOTPCode(t *testing.T) {

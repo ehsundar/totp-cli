@@ -1,4 +1,4 @@
-module github.com/yitsushi/totp-cli
+module github.com/ehsundar/totp-cli
 
 go 1.21
 

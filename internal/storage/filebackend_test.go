@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	s "github.com/yitsushi/totp-cli/internal/storage"
+	s "github.com/ehsundar/totp-cli/internal/storage"
 )
 
 func TestFindNamespace(t *testing.T) {

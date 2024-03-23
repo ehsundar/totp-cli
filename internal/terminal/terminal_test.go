@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yitsushi/totp-cli/internal/terminal"
+	"github.com/ehsundar/totp-cli/internal/terminal"
 )
 
 func prepareIO(input []byte) (io.Reader, *bytes.Buffer, *bytes.Buffer) {

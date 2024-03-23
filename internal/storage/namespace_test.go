@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yitsushi/totp-cli/internal/storage"
+	"github.com/ehsundar/totp-cli/internal/storage"
 )
 
 func TestFindAccount(t *testing.T) {

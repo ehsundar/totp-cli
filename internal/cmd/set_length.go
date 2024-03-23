@@ -7,8 +7,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	s "github.com/yitsushi/totp-cli/internal/storage"
-	"github.com/yitsushi/totp-cli/internal/terminal"
+	s "github.com/ehsundar/totp-cli/internal/storage"
+	"github.com/ehsundar/totp-cli/internal/terminal"
 )
 
 // SetLengthCommand is the set-prefix subcommand.

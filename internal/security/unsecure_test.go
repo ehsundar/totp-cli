@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yitsushi/totp-cli/internal/security"
+	"github.com/ehsundar/totp-cli/internal/security"
 )
 
 func TestUnsecureSHA1(t *testing.T) {

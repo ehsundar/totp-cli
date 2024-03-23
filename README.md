@@ -1,5 +1,5 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/yitsushi/totp-cli)](https://goreportcard.com/report/github.com/yitsushi/totp-cli)
-[![Actions Status](https://github.com/yitsushi/totp-cli/actions/workflows/quality-check.yaml/badge.svg)](https://github.com/yitsushi/totp-cli/actions/workflows/quality-check.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ehsundar/totp-cli)](https://goreportcard.com/report/github.com/ehsundar/totp-cli)
+[![Actions Status](https://github.com/ehsundar/totp-cli/actions/workflows/quality-check.yaml/badge.svg)](https://github.com/ehsundar/totp-cli/actions/workflows/quality-check.yaml)
 [![Coverage Status](https://coveralls.io/repos/github/yitsushi/totp-cli/badge.svg?branch=main)](https://coveralls.io/github/yitsushi/totp-cli?branch=main)
 
 This is a simple TOTP _(Time-based One-time Password)_ CLI tool.
@@ -10,10 +10,10 @@ and protect your data with a password.
 ### Install
 
 Download the latest version of the application
-from the [releases page](https://github.com/yitsushi/totp-cli/releases/latest) or using the `go` tool:
+from the [releases page](https://github.com/ehsundar/totp-cli/releases/latest) or using the `go` tool:
 
 ```shell
-go install github.com/yitsushi/totp-cli@latest
+go install github.com/ehsundar/totp-cli@latest
 ```
 
 #### Alternative

@@ -6,8 +6,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/yitsushi/totp-cli/internal/cmd"
-	"github.com/yitsushi/totp-cli/internal/info"
+	"github.com/ehsundar/totp-cli/internal/cmd"
+	"github.com/ehsundar/totp-cli/internal/info"
 )
 
 func newApplication() *cli.App {

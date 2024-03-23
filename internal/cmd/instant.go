@@ -7,9 +7,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/yitsushi/totp-cli/internal/security"
-	"github.com/yitsushi/totp-cli/internal/storage"
-	"github.com/yitsushi/totp-cli/internal/terminal"
+	"github.com/ehsundar/totp-cli/internal/security"
+	"github.com/ehsundar/totp-cli/internal/storage"
+	"github.com/ehsundar/totp-cli/internal/terminal"
 )
 
 // InstantCommand is the instant subcommand.

@@ -2,7 +2,7 @@ package security_test
 
 import (
 	"fmt"
-	"github.com/yitsushi/totp-cli/internal/security"
+	"github.com/ehsundar/totp-cli/internal/security"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

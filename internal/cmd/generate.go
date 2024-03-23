@@ -6,7 +6,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	s "github.com/yitsushi/totp-cli/internal/storage"
+	s "github.com/ehsundar/totp-cli/internal/storage"
 )
 
 // GenerateCommand is the subcommand to generate a TOTP token.

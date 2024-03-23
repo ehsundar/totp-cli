@@ -6,9 +6,9 @@ run:
 
 linters-settings:
   gci:
-    local-prefixes: github.com/yitsushi/totp-cli
+    local-prefixes: github.com/ehsundar/totp-cli
   goimports:
-    local-prefixes: github.com/yitsushi/totp-cli
+    local-prefixes: github.com/ehsundar/totp-cli
   staticcheck:
     go: "1.18"
   stylecheck:
@@ -37,7 +37,7 @@ linters-settings:
           - $gostd
           - filippo.io/age
           - github.com/urfave/cli/v2
-          - github.com/yitsushi/totp-cli
+          - github.com/ehsundar/totp-cli
           - github.com/kardianos/osext
           - github.com/yitsushi/github-release-check
 
@@ -57,10 +57,10 @@ issues:
   - path: internal/cmd/
     linters:
     - forbidigo
-  - text: "sig: func github.com/yitsushi/totp-cli/"
+  - text: "sig: func github.com/ehsundar/totp-cli/"
     linters:
     - wrapcheck
-  - text: "sig: func \\(\\*?github.com/yitsushi/totp-cli/"
+  - text: "sig: func \\(\\*?github.com/ehsundar/totp-cli/"
     linters:
     - wrapcheck
   - path: internal/info

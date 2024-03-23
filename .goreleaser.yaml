@@ -13,7 +13,7 @@ builds:
       - windows
       - darwin
     ldflags:
-      - -s -w -X github.com/yitsushi/totp-cli/internal/info.Version={{.Version}} -X github.com/yitsushi/totp-cli/internal/info.Commit={{.Commit}}
+      - -s -w -X github.com/ehsundar/totp-cli/internal/info.Version={{.Version}} -X github.com/ehsundar/totp-cli/internal/info.Commit={{.Commit}}
 
 archives:
   - format: tar.gz
